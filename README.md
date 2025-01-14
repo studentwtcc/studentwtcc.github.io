@@ -1,3 +1,13 @@
+# This is the Title
+
+## sub bullet
+- line one email
+    - whaat it do
+w;lf;oewj rovqpr2qpr
+
+>[!WARNING]
+>This is a demo
+
 
 # studentwtcc-github.io
 1. Your name and email address
@@ -52,4 +62,19 @@
     </py-script>
 </body>
 </html>
+```
+```python
+# Simple Python program to greet the user and calculate their age in 5 years
+
+# Ask for the user's name
+name = input("What is your name? ")
+
+# Ask for the user's age
+age = int(input("How old are you? "))
+
+# Calculate the age in 5 years
+age_in_5_years = age + 5
+
+# Print the personalized message
+print(f"Hello, {name}! In 5 years, you will be {age_in_5_years} years old.")
 ```
