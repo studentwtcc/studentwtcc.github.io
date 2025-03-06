@@ -194,8 +194,8 @@ As you add each style rule, frequently save your changes and refresh the live pr
     <label for="name">Name:</label>
     <input type="text" id="name" name="name"><br><br>
     ```
-    > [!NOTE]
-    > *Text fields are used for single-line input and can be used for names or email addresses.*
+> [!NOTE]
+> *Text fields are used for single-line input and can be used for names or email addresses.*
 
 4. **Insert a password input field**:
     ```html
