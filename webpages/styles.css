@@ -1,0 +1,52 @@
+/*This is a simple web page that follows professional conventions*/
+/* General body styles */
+body {
+    font-family: Arial, sans-serif; /* Sets the font of the text to Arial throughout the body */
+    line-height: 1.6; /* Sets the line height as a multiple of the font size to increase readability */
+    margin: 0; /* Removes the default margin around the body */
+    padding: 0; /* Removes the default padding around the body */
+    background: #f4f4f4; /* Sets a light grey background color for the page */
+}
+
+/* Header styles */
+header {
+    background: #333; /* Sets a dark grey background color for the header */
+    color: #fff; /* Sets the text color in the header to white */
+    padding: 10px 20px; /* Adds padding inside the header (top/bottom: 10px, left/right: 20px) */
+    text-align: center; /* Centers the text horizontally within the header */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none; /* Removes the default bullet points from the list */
+    padding: 0; /* Removes the default padding from the list */
+}
+
+nav ul li {
+    display: inline; /* Displays list items in a horizontal row */
+    margin-right: 10px; /* Adds space to the right of each list item */
+}
+
+nav ul li a {
+    color: #fff; /* Sets the text color of links in the navigation to white */
+    text-decoration: none; /* Removes the underline from links */
+}
+
+/* Main content styles */
+main {
+    padding: 20px; /* Adds padding inside the main content area */
+    background: #fff; /* Sets the background color of the main content area to white */
+    margin: 20px; /* Adds margin around the main content area */
+    border-radius: 8px; /* Rounds the corners of the main content area */
+}
+
+/* Footer styles */
+footer {
+    text-align: center; /* Centers the text horizontally within the footer */
+    padding: 10px 20px; /* Adds padding inside the footer (top/bottom: 10px, left/right: 20px) */
+    background: #333; /* Sets a dark grey background color for the footer */
+    color: #fff; /* Sets the text color in the footer to white */
+    position: fixed; /* Fixes the footer */
+}
+
+/* Add more styles as needed */
