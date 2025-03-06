@@ -23,8 +23,8 @@ Learn to create a basic multi-page website using HTML and CSS. This exercise wil
     </body>
     </html>
     ```
-    > [!NOTE]
-    > *This sets up the basic structure for your web page, defining the character set, viewport settings for responsive design, the title of the page, and linking to the CSS file.*
+>[!NOTE]
+>*This sets up the basic structure for your web page, defining the character set, viewport settings for responsive design, the title of the page, and linking to the CSS file.*
 3. **Add a header section with navigation**:
     ```html
     <header>
@@ -40,8 +40,8 @@ Learn to create a basic multi-page website using HTML and CSS. This exercise wil
         </nav>
     </header>
     ```
-    > [!NOTE]
-    > *Header contains the main heading of the page and the navigation bar, which helps users navigate to different sections of the website.*
+>[!NOTE]
+> *Header contains the main heading of the page and the navigation bar, which helps users navigate to different sections of the website.*
 
 4. **Create the main content area with different sections**:
     ```html
@@ -64,8 +64,8 @@ Learn to create a basic multi-page website using HTML and CSS. This exercise wil
         </section>
     </main>
     ```
-    > [!NOTE]
-    > *Each section represents a part of the website, such as Home, About Us, Services, and Contact information. These sections are part of the main content area where detailed information relevant to each heading is displayed.*
+>[!NOTE]
+> *Each section represents a part of the website, such as Home, About Us, Services, and Contact information. These sections are part of the main content area where detailed information relevant to each heading is displayed.*
 
 5. **Add a footer with copyright information**:
     ```html
@@ -92,8 +92,8 @@ You should now have a multi-section webpage with a header, navigation menu, main
         background: #f4f4f4; /* Sets a light grey background color for the page */
     }
     ```
-    > [!NOTE]
-    > *Save the file and observe the changes in the live preview of your HTML.*
+> [!NOTE]
+> *Save the file and observe the changes in the live preview of your HTML.*
 
 3. **Add styles for the header**:
     ```css
@@ -105,8 +105,8 @@ You should now have a multi-section webpage with a header, navigation menu, main
         text-align: center; /* Aligns text to the center of the header */
     }
     ```
-    > [!NOTE]
-    > *Save and view the changes. Each change affects the appearance of the header section.*
+> [!NOTE]
+> *Save and view the changes. Each change affects the appearance of the header section.*
 
 4. **Style the navigation bar**:
     ```css
@@ -124,8 +124,8 @@ You should now have a multi-section webpage with a header, navigation menu, main
         text-decoration: none; /* Removes underline from links */
     }
     ```
-    >[!NOTE] 
-    > *After saving, check how the navigation links are styled and aligned.*
+>[!NOTE] 
+> *After saving, check how the navigation links are styled and aligned.*
 
 5. **Configure the main content area**:
     ```css
@@ -137,8 +137,8 @@ You should now have a multi-section webpage with a header, navigation menu, main
         border-radius: 8px; /* Rounds the corners of the main content box */
     }
     ```
-   >[!NOTE] 
-   > *Observe how the main content area is separated and highlighted from the rest of the page.*
+>[!NOTE] 
+> *Observe how the main content area is separated and highlighted from the rest of the page.*
 
 6. **Set up the footer styles**:
     ```css
@@ -153,8 +153,8 @@ You should now have a multi-section webpage with a header, navigation menu, main
         width: 100%; /* Ensures the footer stretches across the screen */
     }
     ```
-    >[!NOTE] 
-    > *Save the file and review how the footer behaves, especially its fixed position at the bottom of the page.*
+>[!NOTE] 
+> *Save the file and review how the footer behaves, especially its fixed position at the bottom of the page.*
 
 ### Reminder
 As you add each style rule, frequently save your changes and refresh the live preview in VS Code to see how your styles affect the layout and look of your web page. This iterative process helps you understand the impact of each CSS property.
@@ -185,8 +185,8 @@ As you add each style rule, frequently save your changes and refresh the live pr
     </body>
     </html>
     ```
-    > [!NOTE]
-    > *This sets up a basic page with a form that doesn't submit anywhere.*
+> [!NOTE]
+> *This sets up a basic page with a form that doesn't submit anywhere.*
 
 3. **Add a text input field for name**:
     ```html
@@ -203,8 +203,8 @@ As you add each style rule, frequently save your changes and refresh the live pr
     <label for="pwd">Password:</label>
     <input type="password" id="pwd" name="pwd"><br><br>
     ```
-    > [!NOTE]
-    > *Password fields are used for sensitive inputs where characters are masked.*
+> [!NOTE]
+> *Password fields are used for sensitive inputs where characters are masked.*
 
 5. **Add radio buttons for gender selection**:
     ```html
@@ -215,8 +215,8 @@ As you add each style rule, frequently save your changes and refresh the live pr
     <input type="radio" id="female" name="gender" value="female">
     <label for="female">Female</label><br><br>
     ```
-    > [!NOTE]
-    > *Radio buttons allow users to select one option from a set of mutually exclusive options.*
+> [!NOTE]
+> *Radio buttons allow users to select one option from a set of mutually exclusive options.*
 
 6. **Include checkboxes for vehicle preference**:
     ```html
@@ -227,16 +227,16 @@ As you add each style rule, frequently save your changes and refresh the live pr
     <input type="checkbox" id="bike" name="vehicle" value="bike">
     <label for="bike">Bike</label><br><br>
     ```
-    > [!NOTE]
-    > *Checkboxes allow users to select multiple options from a set of choices.*
+> [!NOTE]
+> *Checkboxes allow users to select multiple options from a set of choices.*
 
 7. **Finish with a submit button**:
     ```html
     <!-- Submit button to send form data -->
     <input type="submit" value="Submit">
     ```
-   > [!NOTE]
-   > *The submit button is used to send form data to a server or handle it via JavaScript.*
+> [!NOTE]
+> *The submit button is used to send form data to a server or handle it via JavaScript.*
 
 ### Conclusion
 By the end of this part, you should have a functional form on your website. Each element you've added plays a specific role in collecting data from users. Testing each element in your browser will help you understand how it interacts with the web page and what happens when data is entered into the form.
