@@ -10,7 +10,7 @@ const path = require('path');
 const {Pool} = require('pg');
 // You may need to modify the password or database name in the following line:
 const connectionString = `postgres://postgres:CTI_110_WakeTech@localhost/Gradebook_halliday`;
-// The default password is CTI_110_WakeTech or postgres
+// The default password is CTI_110_WakeTech
 // The default database name is Gradebook
 const pool = new Pool({connectionString:connectionString})
 

@@ -5,7 +5,7 @@ const path = require('path');
 const { Pool } = require('pg');
 
 // === PostgreSQL Database Configuration ===
-const connectionString = 'postgres://postgres:postgres@localhost/Gradebook_halliday';
+const connectionString = 'postgres://postgres:CTI_110_WakeTech@localhost/Gradebook_halliday';
 const pool = new Pool({ connectionString });
 
 // Test database connection on startup

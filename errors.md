@@ -1,3 +1,45 @@
+## Pay Attention
+
+### Error
+```sql
+UPDATE ASSIGNMENT SET GRADE = 100 WHERE GRADE IS NULL;
+```
+
+**Should be:**
+
+```sql
+-- This SQL query updates the GRADE column in the ASSIGNMENTS table.
+-- It sets the grade to 100 for all rows where the grade is currently NULL.
+
+UPDATE ASSIGNMENTS
+SET GRADE = 100
+WHERE GRADE IS NULL;
+```
+
+### In PGAdmin can check to see if query works
+```sql
+SELECT Students.student_id, first_name, last_name, AVG(assignments.grade) as total_grade
+    FROM Students
+    LEFT JOIN Assignments ON Assignments.student_id = Students.student_id
+    GROUP BY Students.student_id
+    ORDER BY total_grade DESC
+```
+
+### Make sure DB updated to add grades:
+```sql
+ALTER TABLE ASSIGNMENTS ADD COLUMN GRADE FLOAT
+```
+Add some grades:
+```sql
+UPDATE ASSIGNMENTS SET GRADE = 100 WHERE GRADE IS NULL;
+```
+To Test:
+```console
+http://localhost:3000/
+```
+
+## Code to Use
+```javascript
 // TODO: Fetch data from the PostgreSQL database (to be implemented later)
 function fetchGradeData() {
     // This function will query the PostgreSQL database and return grade data
@@ -52,3 +94,16 @@ function populateGradebook(data) {
         });
     }
     fetchGradeData()
+```
+
+### Modify cti_110_node.js for database name and password
+
+```javascript
+// This part sets up the database
+const {Pool} = require('pg');
+// You may need to modify the password or database name in the following line:
+const connectionString = `postgres://postgres:CTI_110_WakeTech@localhost/Gradebook_halliday`;
+// The default password is CTI_110_WakeTech
+// The default database name is Gradebook
+const pool = new Pool({connectionString:connectionString})
+```
