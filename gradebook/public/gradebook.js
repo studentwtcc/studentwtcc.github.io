@@ -51,4 +51,5 @@ function populateGradebook(data) {
             tableElm.appendChild(row); // Append the row to the table
         });
     }
-    fetchGradeData()
+    const gradeData = fetchGradeData()
+    populateGradebook(gradeData);
