@@ -93,7 +93,8 @@ function populateGradebook(data) {
             tableElm.appendChild(row); // Append the row to the table
         });
     }
-    fetchGradeData()
+    const gradeData = fetchGradeData()
+    populateGradebook(gradeData);
 ```
 
 ### Modify cti_110_node.js for database name and password
